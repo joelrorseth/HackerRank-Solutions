@@ -6,5 +6,5 @@
 def postOrder(root):
     if root:
         postOrder(root.left)
-        postorder(root.right)
+        postOrder(root.right)
         print(root.data)

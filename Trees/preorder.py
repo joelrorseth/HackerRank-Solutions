@@ -3,8 +3,8 @@
 # Data, Left, Right
 #
 
-def postOrder(root):
+def preOrder(root):
     if root:
         print(root.data)
-        postOrder(root.left)
-        postorder(root.right)
+        preOrder(root.left)
+        preOrder(root.right)
